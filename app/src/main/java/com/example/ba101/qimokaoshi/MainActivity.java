@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements IView {
     @BindView(R.id.recy)
     XRecyclerView mRecy;
 
-    
+
     private List<ListBean.RecentBean> mList = new ArrayList<>();
     private MyRecyAdapter mAdapter;
 
